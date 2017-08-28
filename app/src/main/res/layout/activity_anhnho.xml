@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lienminh.checkbox.anhnho"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#1233fa">
+
+<ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/ic_accessible_black_24dp" />
+<EditText
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Name"
+android:drawableRight="@drawable/ic_account_circle_black_24dp"
+android:drawablePadding="100dp"
+
+    ></EditText>
+<EditText
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Pass"
+android:inputType="numberPassword"
+android:drawableRight="@drawable/ic_album_black_24dp"
+    ></EditText>
+<EditText
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="file"
+android:drawableRight="@drawable/ic_folder_open_black_24dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nữ"/>
+    </RadioGroup>
+
+</LinearLayout>
+</LinearLayout>
